@@ -142,11 +142,6 @@ Update `application.properties` with your MongoDB URI and email settings.
 
 ---
 
-## 📸 Screenshots (Optional)
-
-_Add screenshots here showing the dashboard, task board, member invitation, etc._
-
----
 
 ## 🧪 Environment Variables
 
