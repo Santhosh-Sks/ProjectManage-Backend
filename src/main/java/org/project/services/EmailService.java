@@ -91,17 +91,17 @@ public class EmailService {
                 "<div style='max-width:600px; margin: auto; background:#ffffff; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);'>" +
                 "<h2 style='color:#28B463; border-bottom:1px solid #e0e0e0; padding-bottom:10px;'>📌 New Task Assigned</h2>" +
                 "<p style='font-size:16px; color:#333;'>Hello,</p>" +
-                "<p style='font-size:16px; color:#333;'>You’ve been assigned a new task:</p>" +
+                "<p style='font-size:16px; color:#333;'>You've been assigned a new task:</p>" +
                 "<p style='font-size:18px; font-weight:bold; color:#2C3E50; margin:10px 0;'>" + taskTitle + "</p>" +
                 "<p style='font-size:16px; color:#333;'>Please log in to your dashboard to view more details and begin working on it.</p>" +
-                "<div style='margin-top:20px;'><a href='http://localhost:3000/dashboard' style='display:inline-block; background:#28B463; color:white; padding:10px 20px; border-radius:5px; text-decoration:none;'>Go to Dashboard</a></div>" +
+                "<div style='margin-top:20px;'><a href='https://projectstack-sks.vercel.app/dashboard' style='display:inline-block; background:#28B463; color:white; padding:10px 20px; border-radius:5px; text-decoration:none;'>Go to Dashboard</a></div>" +
                 "<hr style='margin:30px 0;'>" +
                 "<p style='font-size:12px; color:#888;'>If you weren't expecting this email, you can safely ignore it.</p>" +
                 "</div></body></html>";
     }
     
 private String getInvitationEmailContent(String projectId) {
-    String projectLink = "http://localhost:3000/projects/" + projectId;
+    String projectLink = "https://projectstack-sks.vercel.app/projects/" + projectId;
 
     return "<html><body style='font-family: Arial, sans-serif; background-color:#f4f6f8; padding:20px;'>" +
             "<div style='max-width:600px; margin: auto; background:#ffffff; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);'>" +
